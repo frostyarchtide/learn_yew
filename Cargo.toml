@@ -1,0 +1,9 @@
+[package]
+name = "learn_yew"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = "0.4.38"
+gloo = "0.11.0"
+yew = { version = "0.21.0", features = [ "csr" ] }
