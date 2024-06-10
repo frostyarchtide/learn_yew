@@ -22,7 +22,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Build
-        run: trunk build --release --public-url learn_yew
+        run: trunk build --release
       
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v3
